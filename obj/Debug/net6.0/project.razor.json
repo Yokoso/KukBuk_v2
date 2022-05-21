@@ -16308,18 +16308,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/HelloWorld/Index.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Dashboard/Welcome.cshtml",
+      "TargetPath": "Views\\Dashboard\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/HelloWorld/Welcome.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,6 +16330,11 @@
     {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Dashboard/Index.cshtml",
+      "TargetPath": "Views\\Dashboard\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

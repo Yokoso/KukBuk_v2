@@ -16303,8 +16303,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Recipes/Details.cshtml",
+      "TargetPath": "Views\\Recipes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Recipes/Edit.cshtml",
+      "TargetPath": "Views\\Recipes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16315,6 +16325,11 @@
     {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Recipes/Index.cshtml",
+      "TargetPath": "Views\\Recipes\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16333,6 +16348,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Recipes/Delete.cshtml",
+      "TargetPath": "Views\\Recipes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Dashboard/Index.cshtml",
       "TargetPath": "Views\\Dashboard\\Index.cshtml",
       "FileKind": "mvc"
@@ -16340,6 +16360,11 @@
     {
       "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tomek/repos/kukbuk/KukBuk/Views/Recipes/Create.cshtml",
+      "TargetPath": "Views\\Recipes\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,9 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using KukBuk.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<KukBukContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("KukBukContext") ?? throw new InvalidOperationException("Connection string 'KukBukContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope()) {
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

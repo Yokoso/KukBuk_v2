@@ -19,10 +19,18 @@ namespace KukBuk.Controllers
         }
 
         // GET: Recipes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            var recipes = from m in _context.Recipe
+                select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                recipes = recipes.Where(s => s.Title!.Contains(searchString));
+            }
+
               return _context.Recipe != null ? 
-                          View(await _context.Recipe.ToListAsync()) :
+                          View(await recipes.ToListAsync()) :
                           Problem("Entity set 'KukBukContext.Recipe'  is null.");
         }
 

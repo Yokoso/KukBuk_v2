@@ -15,14 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/tomek/repos/kukbuk/KukBuk
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/tomek/repos/kukbuk/KukBuk/Views/Dashboard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/tomek/repos/kukbuk/KukBuk/Views/Dashboard/Welcome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL1dlbGNvbWUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/tomek/repos/kukbuk/KukBuk/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

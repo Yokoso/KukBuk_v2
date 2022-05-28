@@ -1,10 +1,10 @@
 @model IEnumerable<KukBuk.Models.Recipe>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Recipes";
 }
 
-<h1>Index</h1>
+<h1>Recipes</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -29,9 +29,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.PhotoUrl)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UploadDate)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -39,16 +36,18 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+                <a asp-action="Details" asp-route-id="@item.RecipeId">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PhotoUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UploadDate)
+                <img 
+                    src=@Html.DisplayFor(modelItem => item.PhotoUrl)
+                    height="200" width="300"
+                />
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.RecipeId">Edit</a> |

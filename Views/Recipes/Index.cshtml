@@ -24,12 +24,14 @@
                 @Html.DisplayNameFor(model => model.Title)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Cuisine)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.PhotoUrl)
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -39,6 +41,11 @@
                 <a asp-action="Details" asp-route-id="@item.RecipeId">
                     @Html.DisplayFor(modelItem => item.Title)
                 </a>
+            </td>
+            <td>
+                <p>
+                    @Html.DisplayFor(modelItem => item.Cuisine)
+                </p>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)

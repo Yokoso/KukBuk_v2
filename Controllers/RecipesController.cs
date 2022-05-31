@@ -63,7 +63,7 @@ namespace KukBuk.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RecipeId,Title,Description,PhotoUrl,UploadDate")] Recipe recipe)
+        public async Task<IActionResult> Create([Bind("RecipeId,Title,Description,PhotoUrl,UploadDate,Cuisine")] Recipe recipe)
         {
             if (ModelState.IsValid)
             {

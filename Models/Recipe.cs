@@ -17,5 +17,8 @@ namespace KukBuk.Models
         [Display (Name = "Upload Date")]
         [DataType(DataType.Date)]
         public DateTime UploadDate { get; set; }
+
+        [Display (Name = "Cuisine")]
+        public string? Cuisine { get; set; }
     }
 }
